@@ -48,15 +48,15 @@ nav ul {
     justify-content: space-between;
 }
 
-section {
+main {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-main, aside {
+main > main, aside {
     padding: 1rem;
 }
 
-main {
+main > main {
     grid-column: 1/3;
     text-align: left;
     background: #c9c9c9;
